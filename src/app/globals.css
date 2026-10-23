@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
+<<<<<<< HEAD
 /* Body/UI fallback only. The client typeface (Söhne Extraleicht) is declared below and takes over automatically when installed. */
 @import "@fontsource-variable/dm-sans/index.css";
 
@@ -133,11 +134,61 @@ body {
   font-size: 1.0625rem;
   line-height: 1.65;
   font-synthesis: none;
+=======
+/* Fonts are self-hosted through Fontsource (no runtime requests to Google). */
+@import "@fontsource/cormorant-garamond/300.css";
+@import "@fontsource/cormorant-garamond/400.css";
+@import "@fontsource/cormorant-garamond/500.css";
+@import "@fontsource/cormorant-garamond/400-italic.css";
+@import "@fontsource-variable/dm-sans/index.css";
+
+/*
+ * Design tokens.
+ * Palette is drawn from the studio's photographs: lime-washed plaster, oak and pine,
+ * raw stone, blackened steel, saturated red paint and the green of living plants.
+ */
+@theme {
+  --color-ivory: #f3efe7;
+  --color-limestone: #dcd3c3;
+  --color-oak: #b88a4f;
+  --color-rojo: #9c3a2a;
+  --color-charcoal: #1f1e1b;
+  --color-moss: #55624a;
+  --color-ink: #1f1e1b;
+  --color-muted: #5d584e;
+  --color-line: rgb(31 30 27 / 0.16);
+
+  --font-serif: "Cormorant Garamond", "Cormorant", "Times New Roman", Georgia, serif;
+  --font-sans: "DM Sans Variable", "DM Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+
+  --ease-editorial: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+:root {
+  --gutter: clamp(1.25rem, 4vw, 3.5rem);
+  --header-h: 4.5rem;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: var(--color-ivory);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  font-size: 1.0625rem;
+  line-height: 1.65;
+>>>>>>> 68307ba9e997c30ee9ec9d3694ab91c16fc47470
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   overflow-x: clip;
 }
+<<<<<<< HEAD
 strong, b { font-weight: 500; }
+=======
+>>>>>>> 68307ba9e997c30ee9ec9d3694ab91c16fc47470
 
 /* Hyphenation follows <html lang>, which keeps long Spanish words from breaking the layout. */
 h1, h2, h3, p, li, dd, label {
@@ -147,6 +198,7 @@ h1, h2, h3, p, li, dd, label {
 h1, h2, h3 { text-wrap: balance; }
 p { text-wrap: pretty; }
 
+<<<<<<< HEAD
 ::selection { background: var(--accent); color: var(--accent-ink); }
 
 /* Accessible, visible focus everywhere (accent adapts to the section palette). */
@@ -168,16 +220,49 @@ p { text-wrap: pretty; }
 .display-lg { font-size: clamp(2.25rem, 5.6vw, 5.5rem); }
 .display-md { font-size: clamp(1.875rem, 3.8vw, 3.5rem); line-height: 1.06; }
 .display-sm { font-size: clamp(1.5rem, 2.4vw, 2.25rem); line-height: 1.12; letter-spacing: -0.025em; }
+=======
+::selection { background: var(--color-rojo); color: var(--color-ivory); }
+
+/* Accessible, visible focus everywhere. */
+:focus-visible {
+  outline: 2px solid var(--color-rojo);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+.on-dark :focus-visible { outline-color: var(--color-ivory); }
+
+/* ---------- Typographic utilities ---------- */
+.font-display {
+  font-family: var(--font-serif);
+  font-weight: 400;
+  letter-spacing: -0.015em;
+  line-height: 0.98;
+}
+.display-xl { font-size: clamp(3.25rem, 9.5vw, 9.5rem); }
+.display-lg { font-size: clamp(2.5rem, 6vw, 5.75rem); }
+.display-md { font-size: clamp(2rem, 4vw, 3.75rem); line-height: 1.04; }
+.display-sm { font-size: clamp(1.625rem, 2.6vw, 2.5rem); line-height: 1.1; }
+>>>>>>> 68307ba9e997c30ee9ec9d3694ab91c16fc47470
 
 .eyebrow {
   font-family: var(--font-sans);
   font-size: 0.75rem;
+<<<<<<< HEAD
   font-weight: 400;
   letter-spacing: 0.16em;
   text-transform: uppercase;
 }
 
 .rule { border-top: 1px solid var(--line); }
+=======
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.rule { border-top: 1px solid var(--color-line); }
+.on-dark .rule { border-color: rgb(243 239 231 / 0.22); }
+>>>>>>> 68307ba9e997c30ee9ec9d3694ab91c16fc47470
 
 .container-x {
   width: 100%;
@@ -257,7 +342,11 @@ p { text-wrap: pretty; }
   inset: 0;
   z-index: 1;
   pointer-events: none;
+<<<<<<< HEAD
   opacity: 0.07;
+=======
+  opacity: 0.09;
+>>>>>>> 68307ba9e997c30ee9ec9d3694ab91c16fc47470
   mix-blend-mode: overlay;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
 }
@@ -276,6 +365,10 @@ p { text-wrap: pretty; }
 
 /* Blueprint hairlines used as architectural decoration. */
 .hairline-grid {
+<<<<<<< HEAD
   background-image: linear-gradient(to right, rgb(243 239 231 / 0.07) 1px, transparent 1px);
+=======
+  background-image: linear-gradient(to right, rgb(243 239 231 / 0.08) 1px, transparent 1px);
+>>>>>>> 68307ba9e997c30ee9ec9d3694ab91c16fc47470
   background-size: calc(100% / 6) 100%;
 }

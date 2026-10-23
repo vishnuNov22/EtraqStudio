@@ -14,9 +14,15 @@ for (const file of (await readdir(src)).filter((f) => /\.(png|jpe?g)$/i.test(f))
   const key = path.parse(file).name;
   const img = sharp(path.join(src, file));
   const { width, height } = await img.metadata();
+<<<<<<< HEAD
   // The supplied images are small screenshots (~780px). Upscale 2x with Lanczos + gentle sharpening so
   // they stay crisp on retina screens. Replace assets-src/* with the studio's originals when available.
   const scale = width < 400 ? 3 : width < 1600 ? 2 : 1;
+=======
+  // The supplied photos are ~1080px Instagram exports. Upscale 2x with Lanczos + gentle sharpening so
+  // they stay crisp on retina screens. Replace assets-src/* with the studio's originals when available.
+  const scale = width < 1600 ? 2 : 1;
+>>>>>>> 68307ba9e997c30ee9ec9d3694ab91c16fc47470
   const outW = width * scale;
   await img
     .clone()
@@ -30,7 +36,11 @@ for (const file of (await readdir(src)).filter((f) => /\.(png|jpe?g)$/i.test(f))
 }
 
 // 1200x630 social-sharing image (landscape crop of the coffee-bar photograph)
+<<<<<<< HEAD
 await sharp(path.join(src, 'cafe.png'))
+=======
+await sharp(path.join(src, 'bunaBar.png'))
+>>>>>>> 68307ba9e997c30ee9ec9d3694ab91c16fc47470
   .resize(1200, 630, { fit: 'cover', position: 'centre' })
   .jpeg({ quality: 84 })
   .toFile(path.join(out, 'og.jpg'));

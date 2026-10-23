@@ -17,7 +17,11 @@ const routes = [
   { es: '/es', en: '/en' },
   { es: '/es/proyectos', en: '/en/projects' },
   { es: '/es/estudio', en: '/en/studio' },
+<<<<<<< HEAD
   { es: '/es/como-trabajamos', en: '/en/process' },
+=======
+  { es: '/es/enfoque', en: '/en/approach' },
+>>>>>>> 68307ba9e997c30ee9ec9d3694ab91c16fc47470
   { es: '/es/contacto', en: '/en/contact' },
   ...slugs.map((s) => ({ es: `/es/proyectos/${s}`, en: `/en/projects/${s}` })),
 ];

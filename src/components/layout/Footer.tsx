@@ -17,7 +17,11 @@ export function Footer() {
         <div className="md:col-span-6">
           <p className="font-display display-lg">
             {siteConfig.wordmark}
+<<<<<<< HEAD
             <span className="ml-3 text-[0.4em] opacity-60">{siteConfig.wordmarkSuffix}</span>
+=======
+            <span className="ml-3 text-[0.4em] italic opacity-60">{siteConfig.wordmarkSuffix}</span>
+>>>>>>> 68307ba9e997c30ee9ec9d3694ab91c16fc47470
           </p>
           <p className="eyebrow mt-6 opacity-70">
             {t('tagline')} · {th('location')} · {siteConfig.coordinates}

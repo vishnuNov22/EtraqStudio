@@ -24,7 +24,11 @@ export const routing = defineRouting({
     '/projects': { es: '/proyectos', en: '/projects' },
     '/projects/[slug]': { es: '/proyectos/[slug]', en: '/projects/[slug]' },
     '/studio': { es: '/estudio', en: '/studio' },
+<<<<<<< HEAD
     '/approach': { es: '/como-trabajamos', en: '/process' },
+=======
+    '/approach': { es: '/enfoque', en: '/approach' },
+>>>>>>> 68307ba9e997c30ee9ec9d3694ab91c16fc47470
     '/contact': { es: '/contacto', en: '/contact' },
   },
 });

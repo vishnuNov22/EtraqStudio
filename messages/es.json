@@ -1,6 +1,7 @@
 {
   "Meta": {
     "siteName": "etarq studio",
+<<<<<<< HEAD
     "ogImageAlt": "Barra de café renderizada con muros de yeso ocre, gabinetes de madera, lámparas colgantes rojas y un marco de acero y vidrio verde claro, junto a una escalera y una ventana en arco de azulejo rojo",
     "home": {
       "title": "etarq studio — Arquitectura + Diseño en la Ciudad de México",
@@ -17,6 +18,24 @@
     "approach": {
       "title": "Cómo trabajamos — etarq studio",
       "description": "Cuatro etapas, del inicio de proyecto a la supervisión de obra: así trabaja etarq studio."
+=======
+    "ogImageAlt": "Barra de café con azulejo vidriado bajo un dosel ligero, proyecto de etarq studio",
+    "home": {
+      "title": "etarq studio — Arquitectura + Diseño en la Ciudad de México",
+      "description": "Materia, espacio y vida cotidiana. etarq studio es un despacho de arquitectura y diseño con sede en la Ciudad de México."
+    },
+    "projects": {
+      "title": "Proyectos — etarq studio",
+      "description": "Interiores, barras, escaleras y pasajes ajardinados: una selección de proyectos de etarq studio."
+    },
+    "studio": {
+      "title": "Estudio — etarq studio",
+      "description": "Conoce a etarq studio, despacho de arquitectura y diseño en la Ciudad de México."
+    },
+    "approach": {
+      "title": "Enfoque — etarq studio",
+      "description": "Materia, luz, verde vivo y vida cotidiana: las ideas que atraviesan el trabajo de etarq studio."
+>>>>>>> 68307ba9e997c30ee9ec9d3694ab91c16fc47470
     },
     "contact": {
       "title": "Contacto — etarq studio",
@@ -48,7 +67,11 @@
   "Nav": {
     "projects": "Proyectos",
     "studio": "Estudio",
+<<<<<<< HEAD
     "approach": "Cómo trabajamos",
+=======
+    "approach": "Enfoque",
+>>>>>>> 68307ba9e997c30ee9ec9d3694ab91c16fc47470
     "contact": "Contacto"
   },
   "Language": {
@@ -67,15 +90,26 @@
   },
   "Intro": {
     "eyebrow": "El estudio",
+<<<<<<< HEAD
     "title": "Espacios que no solo cumplen una función: transmiten sensaciones y cuentan historias.",
     "body1": "Nuestro nombre proviene del latín, donde “et”, que significa “y”, simboliza la unión entre diversos actores en la arquitectura.",
     "body2": "Cada proyecto busca integrar a las personas en el acto de habitar, utilizando materiales, texturas, iluminación y mobiliario para construir atmósferas que reflejen su esencia y eleven su estilo de vida.",
     "cta": "Conoce el estudio"
+=======
+    "title": "Espacios definidos por su materia y por la manera de habitarlos.",
+    "body1": "etarq studio es un despacho de arquitectura y diseño con sede en la Ciudad de México. Su trabajo abarca desde interiores comerciales hasta cafeterías, escaleras y pasajes ajardinados, siempre a partir de materiales honestos y táctiles: madera, piedra, aplanados, cerámica y plantas vivas.",
+    "body2": "La luz, la sombra y la vegetación se tratan como parte de la construcción, no como decoración.",
+    "cta": "Conocer el estudio"
+>>>>>>> 68307ba9e997c30ee9ec9d3694ab91c16fc47470
   },
   "Projects": {
     "eyebrow": "Proyectos",
     "title": "Obra seleccionada",
+<<<<<<< HEAD
     "lead": "Cafés, bares, restaurantes, salones y viviendas.",
+=======
+    "lead": "Interiores, barras, escaleras y pasajes ajardinados.",
+>>>>>>> 68307ba9e997c30ee9ec9d3694ab91c16fc47470
     "featuredEyebrow": "Selección",
     "featuredTitle": "Proyectos recientes",
     "typeLabel": "Tipo",
@@ -89,6 +123,7 @@
     "moreImagesNote": "Más fotografías del proyecto se añadirán cuando el estudio las entregue.",
     "galleryLabel": "Galería del proyecto",
     "items": {
+<<<<<<< HEAD
       "cafe": {
         "title": "Café ocre",
         "type": "Interior de café · render",
@@ -160,6 +195,49 @@
         "type": "Fachada · fotografía",
         "summary": "Una fachada rosa suave con ventanas de acero negro y un portón revestido de tablones de madera con rica veta.",
         "description": "Una fachada a la calle en rosa suave, con grandes ventanales de acero negro en dos niveles. A nivel de calle, un portón con marco de acero y revestido de tablones verticales de madera, con marcada veta y variación de color, ancla la composición."
+=======
+      "buna": {
+        "title": "Buna",
+        "type": "Barra de café · Hospitalidad",
+        "summary": "Una barra de azulejo vidriado bajo un ligero dosel de acero.",
+        "description": "Una barra de café revestida con azulejo vidriado en tonos bronce se apoya bajo una estructura de acero rojo y un dosel translúcido que filtra la luz del día. Una pila de piedra en bruto, con grifería negra mate, ancla la barra, mientras la vegetación acompaña el conjunto."
+      },
+      "yale": {
+        "title": "Yale",
+        "type": "Interior comercial",
+        "summary": "Estantería de madera y un mostrador con cubierta de piedra frente a un muro oscuro.",
+        "description": "Una tienda de ropa organizada alrededor de un muro expositor continuo de madera. Paneles iluminados enmarcan la marca, un mostrador con cubierta de piedra recibe al visitante y un muro color carbón sostiene un lema en grandes letras."
+      },
+      "escalera": {
+        "title": "Escalera y jardín",
+        "type": "Interior · Escalera",
+        "summary": "Una escalera de concreto en voladizo que emerge de un jardín interior.",
+        "description": "Peldaños de concreto que se pliegan en zigzag desde el muro, con pasamanos de madera y delgados balaustres de acero. Al pie, un lecho de plantas de hoja grande lleva el verde a un vestíbulo blanco y sereno, de piso pétreo claro, con una franja de luz cenital arriba."
+      },
+      "pergola": {
+        "title": "Pérgola",
+        "type": "Exterior · Paseo cubierto",
+        "summary": "Una pérgola de madera y acero que atraviesa jardineras.",
+        "description": "Postes de acero negro sostienen una retícula de vigas de madera y paneles translúcidos que filtran la luz sobre un piso cálido de madera. Jardineras a ambos lados convierten el paso en un corredor ajardinado, abierto hacia los árboles del fondo."
+      },
+      "rojo": {
+        "title": "Interior rojo",
+        "type": "Interior · Local comercial pequeño",
+        "summary": "Una envolvente roja saturada alrededor de mobiliario de madera clara.",
+        "description": "Muros y plafón pintados en rojo y rosa saturados enmarcan un ventanal con herrería roja hacia la calle. Bancas y mesas bajas de madera clara, junto a un muro de cuadros enmarcados, mantienen una escala cálida y humana, con luz de un letrero de neón y pequeñas lámparas."
+      },
+      "cactus": {
+        "title": "Rincón de cactus",
+        "type": "Interior · Rincón de asientos",
+        "summary": "Una banca de madera que sostiene un jardín desértico, bañada en luz ámbar.",
+        "description": "Una banca de madera integrada recorre la esquina y funciona como jardinera para cactus y suculentas, iluminada desde abajo por una fina línea de LED. Los muros de aplanado rugoso se tiñen de un dorado verdoso, con un único foco y la viguería expuesta arriba."
+      },
+      "cocina": {
+        "title": "Cocina con tragaluz verde",
+        "type": "Interior residencial · Visualización",
+        "summary": "Una visualización de una cocina bajo una celosía de madera con plantas.",
+        "description": "Estudio renderizado de una cocina donde una celosía de madera con plantas abre el plafón al cielo y reparte luz moteada sobre un piso de terrazo. Gabinetes de madera cálida, una isla de piedra y nichos iluminados completan una paleta serena."
+>>>>>>> 68307ba9e997c30ee9ec9d3694ab91c16fc47470
       }
     }
   },
@@ -174,6 +252,7 @@
     "translucent": "Paneles translúcidos",
     "paint": "Color aplicado",
     "terrazzo": "Terrazo",
+<<<<<<< HEAD
     "canopy": "Dosel translúcido",
     "textile": "Textil",
     "leather": "Piel",
@@ -187,6 +266,71 @@
     "body2": "Con este enfoque, <b>creamos espacios que no solo cumplen una función, sino que transmiten sensaciones y cuentan historias.</b>",
     "body3": "Cada proyecto busca integrar a las personas en el acto de habitar, <b>utilizando materiales, texturas, iluminación y mobiliario para construir atmósferas que reflejen su esencia y eleven su estilo de vida.</b> Descubre cómo podemos transformar tu visión en una experiencia estética y emocional única.",
     "projectsCta": "Ver proyectos",
+=======
+    "canopy": "Dosel translúcido"
+  },
+  "Maquette": {
+    "eyebrow": "Maqueta",
+    "title": "Volúmenes en suspensión",
+    "body": "Un estudio abstracto de volúmenes: peldaños de piedra en espiral, una pérgola de madera y acero, y jardineras. Gira la pieza para verla desde otros ángulos.",
+    "caption": "Estudio abstracto inspirado en la piedra escalonada, la pérgola de madera y la escalera verde del estudio. No representa un edificio construido.",
+    "hint": "Arrastra para girar",
+    "loading": "Cargando la maqueta…",
+    "fallbackNote": "La vista 3D no está disponible en este dispositivo. Aquí tienes una fotografía del detalle que la inspira.",
+    "regionLabel": "Maqueta tridimensional interactiva"
+  },
+  "Approach": {
+    "eyebrow": "Enfoque",
+    "title": "Cuatro ideas que atraviesan el trabajo del estudio.",
+    "lead": "Una manera de proyectar que parte de lo que se toca, se ve y se usa todos los días.",
+    "draftNote": "Redacción en borrador a partir de los proyectos fotografiados; por afinar con el estudio.",
+    "pillarsLabel": "Principios",
+    "pillars": {
+      "matter": {
+        "title": "Materia",
+        "body": "La madera, la piedra, el aplanado y la cerámica se mantienen cerca de su estado natural. La textura, la veta y el peso hacen el trabajo que normalmente hace el ornamento."
+      },
+      "light": {
+        "title": "Luz",
+        "body": "La luz natural se filtra, se refleja y se suaviza con pérgolas, doseles y tragaluces; de noche, una luz cálida y baja dibuja los bordes de cada espacio."
+      },
+      "green": {
+        "title": "Verde vivo",
+        "body": "Las plantas se piensan desde el primer trazo: en jardineras, bajo escaleras, sobre bancas, a través del plafón. Son parte de la experiencia del espacio, no un añadido."
+      },
+      "everyday": {
+        "title": "Vida cotidiana",
+        "body": "Una barra de café, el muro de una tienda, la escalera de un pasillo: el estudio diseña los lugares donde ocurre lo cotidiano, a la escala de la mano y del paso."
+      }
+    },
+    "cta": "Ver los proyectos"
+  },
+  "Studio": {
+    "eyebrow": "Estudio",
+    "title": "Arquitectura + Diseño desde la Ciudad de México.",
+    "lead": "Materia, espacio y vida cotidiana.",
+    "draftNote": "Texto en borrador a partir del perfil público del estudio; por confirmar.",
+    "body1": "etarq studio es un despacho de arquitectura y diseño con sede en la Ciudad de México. Su trabajo abarca desde interiores comerciales hasta cafeterías, escaleras y pasajes ajardinados.",
+    "body2": "Cada proyecto parte de un material y de una manera de usar el espacio. La luz, la sombra y la vegetación forman parte de la construcción desde el principio.",
+    "locationLabel": "Ubicación",
+    "locationValue": "Ciudad de México, México",
+    "disciplinesTitle": "Qué hacemos",
+    "disciplines": {
+      "architecture": {
+        "title": "Arquitectura",
+        "body": "Espacios, escaleras y estructuras ligeras pensadas desde su materialidad."
+      },
+      "interiors": {
+        "title": "Interiorismo",
+        "body": "Tiendas, cafeterías y espacios pequeños resueltos con mobiliario y detalle a medida."
+      },
+      "landscape": {
+        "title": "Verde y paisaje",
+        "body": "Jardineras, patios y vegetación integrados a la arquitectura."
+      }
+    },
+    "galleryTitle": "Desde el estudio",
+>>>>>>> 68307ba9e997c30ee9ec9d3694ab91c16fc47470
     "ctaTitle": "¿Tienes un espacio en mente?",
     "ctaBody": "Cuéntanos sobre el sitio, el programa y lo que imaginas.",
     "ctaButton": "Escribir al estudio"
@@ -246,7 +390,11 @@
     "contactTitle": "Contacto",
     "followTitle": "Síguenos",
     "rights": "© {year} etarq studio.",
+<<<<<<< HEAD
     "photoCredit": "Renders y fotografías: material proporcionado por el estudio.",
+=======
+    "photoCredit": "Fotografías: material proporcionado por el estudio.",
+>>>>>>> 68307ba9e997c30ee9ec9d3694ab91c16fc47470
     "concept": "Propuesta de sitio web."
   },
   "Errors": {
@@ -261,6 +409,7 @@
     "label": "Cargando contenido"
   },
   "Images": {
+<<<<<<< HEAD
     "cafe": "Barra de café renderizada con muros de yeso ocre, gabinetes de madera, lámparas colgantes rojas y un marco de acero y vidrio verde claro, junto a una escalera y una ventana en arco de azulejo rojo",
     "basin": "Baño angosto renderizado con muros ocre, espejo ovalado con marco verde claro, lavabo blanco redondo sobre mueble de madera y puerta verde translúcida",
     "cine": "Interior de bar renderizado con muros dorados, lámparas rojas, bancas de madera tapizadas en rojo, carteles enmarcados del cine mexicano y una barra de madera con bancos verde claro",
@@ -289,6 +438,18 @@
     "team_abril": "Retrato de Abril Esparza",
     "team_alexia": "Retrato de Alexia Argüelles",
     "team_fernando": "Retrato de Fernando Dragonné"
+=======
+    "pergola": "Paseo cubierto con pérgola de vigas de madera y postes de acero negro, jardineras a ambos lados y piso de madera.",
+    "stairGarden": "Escalera de concreto en zigzag con pasamanos de madera sobre un jardín interior de plantas de hoja grande.",
+    "bunaBar": "Barra de café revestida con azulejo vidriado en tonos bronce, bajo una estructura de acero rojo y un dosel translúcido.",
+    "basin": "Pila de piedra en bruto con grifería negra mate sobre una barra oscura, con luz y sombra de plantas al fondo.",
+    "yale": "Tienda de ropa con muros de madera, mostrador con cubierta de piedra y un muro oscuro con un lema en letras grandes.",
+    "redRoom": "Interior con plafón y muros rojos, ventanal con herrería roja, mobiliario de madera clara y un muro de cuadros.",
+    "cactus": "Esquina con una banca de madera que sostiene cactus y suculentas, iluminada con luz ámbar sobre un muro rugoso.",
+    "kitchen": "Visualización de una cocina con isla de piedra, gabinetes de madera y una celosía de madera con plantas en el plafón.",
+    "stoneSteps": "Peldaños semicirculares de piedra rugosa con luz y sombra sobre un muro blanco texturizado.",
+    "overhead": "Vista cenital de un pasillo con muro y piso de madera, alfombra oscura y un ventanal con plantas."
+>>>>>>> 68307ba9e997c30ee9ec9d3694ab91c16fc47470
   },
   "Marquee": {
     "a": "Materia",
@@ -305,6 +466,7 @@
     "eyebrow": "Índice",
     "title": "Todos los proyectos",
     "hint": "Pasa el cursor sobre un proyecto para ver su vista previa."
+<<<<<<< HEAD
   },
   "Stats": {
     "eyebrow": "Experiencia",
@@ -374,3 +536,7 @@
     }
   }
 }
+=======
+  }
+}
+>>>>>>> 68307ba9e997c30ee9ec9d3694ab91c16fc47470

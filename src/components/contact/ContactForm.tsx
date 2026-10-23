@@ -210,7 +210,11 @@ export function ContactForm() {
         <button
           type="submit"
           disabled={busy}
+<<<<<<< HEAD
           className="inline-flex min-h-12 items-center justify-center bg-accent px-9 text-[0.8125rem] font-medium uppercase tracking-[0.18em] text-accent-ink transition-colors hover:bg-ink hover:text-surface focus-visible:outline-offset-4 disabled:opacity-60"
+=======
+          className="inline-flex min-h-12 items-center justify-center bg-charcoal px-9 text-[0.8125rem] font-medium uppercase tracking-[0.18em] text-ivory transition-colors hover:bg-rojo focus-visible:outline-offset-4 disabled:opacity-60"
+>>>>>>> 68307ba9e997c30ee9ec9d3694ab91c16fc47470
         >
           {busy ? t('submitting') : t('submit')}
         </button>
@@ -224,7 +228,11 @@ export function ContactForm() {
               </a>
             </p>
           ) : null}
+<<<<<<< HEAD
           {status === 'success' ? <p className="border-l-2 border-accent pl-4">{t('status.success')}</p> : null}
+=======
+          {status === 'success' ? <p className="border-l-2 border-moss pl-4">{t('status.success')}</p> : null}
+>>>>>>> 68307ba9e997c30ee9ec9d3694ab91c16fc47470
           {status === 'error' ? <p className="border-l-2 border-rojo pl-4 text-rojo">{t('status.error')}</p> : null}
         </div>
       </div>

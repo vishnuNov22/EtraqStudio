@@ -81,7 +81,11 @@ export function MobileMenu({ open, onClose, currentPath }: MobileMenuProps) {
           <div className="flex h-[var(--header-h)] items-center justify-between px-[var(--gutter)]">
             <Link href="/" onClick={onClose} aria-label={tc('homeLink')} className="font-display text-[1.75rem]">
               {siteConfig.wordmark}
+<<<<<<< HEAD
               <span className="ml-1.5 text-[1.05rem] opacity-70">{siteConfig.wordmarkSuffix}</span>
+=======
+              <span className="ml-1.5 text-[1.05rem] italic opacity-70">{siteConfig.wordmarkSuffix}</span>
+>>>>>>> 68307ba9e997c30ee9ec9d3694ab91c16fc47470
             </Link>
             <button
               type="button"

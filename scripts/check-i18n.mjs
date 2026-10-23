@@ -33,8 +33,12 @@ for (const [k, v] of fes) {
 // Strings identical in both languages are suspicious (untranslated) unless allow-listed.
 const allow = new Set([
   'Meta.siteName', 'Nav.studio', 'Language.es', 'Language.en', 'Common.projectCount',
+<<<<<<< HEAD
   'Contact.instagram', 'Stats.area.value', 'Stats.states.value', 'Stats.projects.value', 'Stats.years.value',
   'Process.stages.s1.i3', 'Process.stages.s2.i2', 'Projects.items.vestidor.type', 'Studio.eyebrow',
+=======
+  'Projects.items.buna.title', 'Projects.items.yale.title', 'Contact.instagram',
+>>>>>>> 68307ba9e997c30ee9ec9d3694ab91c16fc47470
   'Contact.whatsapp', 'Materials.terrazzo', 'Footer.rights', 'Errors.notFoundCode',
 ]);
 const identical = [...fes].filter(([k, v]) => fen.get(k) === v && !allow.has(k));

@@ -120,6 +120,7 @@ src/
   originals before launch, then drop them in `assets-src/` and run `npm run images`.
 * GSAP was intentionally not added: Framer Motion covers every effect used, and extra scroll
   choreography would not improve the result.
+<<<<<<< HEAD
 * Fonts: Söhne Extraleicht (client typeface, licence files pending) with DM Sans (Fontsource) as the temporary fallback.
 
 
@@ -135,3 +136,6 @@ src/
 * Project titles are descriptive working titles until the studio supplies real names, locations and years.
 * Process route is `/es/como-trabajamos` · `/en/process` (internal key remains `/approach`).
 * `npm run images` regenerates WebP + blur metadata from `assets-src/` (needs `sharp` installed for your OS).
+=======
+* Fonts (Cormorant Garamond, DM Sans) are self-hosted through Fontsource.
+>>>>>>> 68307ba9e997c30ee9ec9d3694ab91c16fc47470

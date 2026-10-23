@@ -27,9 +27,15 @@ interface Panel {
  * every panel is shown at or below its native resolution, so the photography stays crisp.
  */
 const PANELS: Panel[] = [
+<<<<<<< HEAD
   { asset: 'desiertoWide', slug: 'desierto', position: '38% 50%', speed: 6, mobile: false },
   { asset: 'billarLounge', slug: 'billar', position: '50% 50%', speed: 10, mobile: true, priority: true },
   { asset: 'cafe', slug: 'cafe', position: '68% 50%', speed: 4, mobile: false },
+=======
+  { asset: 'cactus', slug: 'cactus', position: '50% 62%', speed: 6, mobile: false },
+  { asset: 'pergola', slug: 'pergola', position: '50% 50%', speed: 10, mobile: true, priority: true },
+  { asset: 'stairGarden', slug: 'escalera', position: '38% 50%', speed: 4, mobile: false },
+>>>>>>> 68307ba9e997c30ee9ec9d3694ab91c16fc47470
 ];
 
 function HeroPanel({
@@ -107,7 +113,11 @@ function HeroPanel({
 
 /**
  * Cinematic opening: a triptych of project photographs that expand on hover, with staggered clip-path
+<<<<<<< HEAD
  * reveals, per-panel parallax and the studio wordmark in oversized light type.
+=======
+ * reveals, per-panel parallax and the studio wordmark in oversized serif type.
+>>>>>>> 68307ba9e997c30ee9ec9d3694ab91c16fc47470
  */
 export function Hero() {
   const t = useTranslations('Hero');
@@ -160,7 +170,11 @@ export function Hero() {
                 transition={{ duration: 1.5, delay: 0.7, ease: EASE }}
               >
                 {siteConfig.wordmark}
+<<<<<<< HEAD
                 <span className="ml-[0.08em] align-baseline text-[0.2em] tracking-normal opacity-80">
+=======
+                <span className="ml-[0.08em] align-baseline text-[0.2em] italic tracking-normal opacity-80">
+>>>>>>> 68307ba9e997c30ee9ec9d3694ab91c16fc47470
                   {siteConfig.wordmarkSuffix}
                 </span>
               </motion.span>
@@ -169,7 +183,11 @@ export function Hero() {
 
           <motion.p
             data-reveal
+<<<<<<< HEAD
             className="max-w-xs font-display text-[clamp(1.5rem,2.4vw,2.125rem)] leading-[1.12] md:pb-6 md:text-right"
+=======
+            className="max-w-xs font-display text-[clamp(1.5rem,2.4vw,2.125rem)] italic leading-[1.12] md:pb-6 md:text-right"
+>>>>>>> 68307ba9e997c30ee9ec9d3694ab91c16fc47470
             initial={reduce ? false : { opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1.1, delay: 1.3, ease: EASE }}

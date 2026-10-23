@@ -35,6 +35,7 @@ export default async function ProjectsPage({ params }: Props) {
 
       <ProjectIndex showHeading={false} />
 
+<<<<<<< HEAD
       <section aria-label={t('galleryLabel')}>
         {projects.map((project, i) => (
           // Each project sits on a band in its own palette, derived from its materials.
@@ -45,6 +46,16 @@ export default async function ProjectsPage({ params }: Props) {
               layout={project.layout === 'full' ? 'full' : i % 2 === 0 ? 'portraitLeft' : 'wide'}
             />
           </div>
+=======
+      <section aria-label={t('galleryLabel')} className="flex flex-col gap-24 pb-24 md:gap-40 md:pb-40">
+        {projects.map((project, i) => (
+          <ProjectFeature
+            key={project.slug}
+            project={project}
+            // Alternate rhythm across the full index regardless of home-page layouts.
+            layout={project.layout === 'full' ? 'full' : i % 2 === 0 ? 'portraitLeft' : 'wide'}
+          />
+>>>>>>> 68307ba9e997c30ee9ec9d3694ab91c16fc47470
         ))}
       </section>
 

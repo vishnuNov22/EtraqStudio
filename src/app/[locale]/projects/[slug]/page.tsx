@@ -156,7 +156,11 @@ export default async function ProjectPage({ params }: Props) {
         </div>
       </div>
 
+<<<<<<< HEAD
       <section aria-label={tc('nextProject')} className={`tone-${next.theme}`}>
+=======
+      <section aria-label={tc('nextProject')} className="on-dark bg-charcoal text-ivory">
+>>>>>>> 68307ba9e997c30ee9ec9d3694ab91c16fc47470
         <Link href={{ pathname: '/projects/[slug]', params: { slug: next.slug } }} className="group block">
           <div className="container-x grid items-center gap-8 py-20 md:grid-cols-12 md:py-32">
             <div className="md:col-span-7">
@@ -176,7 +180,11 @@ export default async function ProjectPage({ params }: Props) {
           </div>
         </Link>
         <div className="container-x rule pb-10 pt-6">
+<<<<<<< HEAD
           <ArrowLink href="/projects">
+=======
+          <ArrowLink href="/projects" className="text-ivory">
+>>>>>>> 68307ba9e997c30ee9ec9d3694ab91c16fc47470
             {tc('allProjects')}
           </ArrowLink>
         </div>

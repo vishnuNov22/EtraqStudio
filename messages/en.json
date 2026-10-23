@@ -1,6 +1,7 @@
 {
   "Meta": {
     "siteName": "etarq studio",
+<<<<<<< HEAD
     "ogImageAlt": "Rendered café counter in ochre plaster with timber cabinets, red pendant lamps and a pale-green steel and glass frame, beside a stair and an arched red-tile window",
     "home": {
       "title": "etarq studio — Architecture + Design in Mexico City",
@@ -17,6 +18,24 @@
     "approach": {
       "title": "How we work — etarq studio",
       "description": "Four stages from project kickoff to site supervision: how etarq studio works."
+=======
+    "ogImageAlt": "Coffee bar clad in glazed tile under a light canopy, a project by etarq studio",
+    "home": {
+      "title": "etarq studio — Architecture + Design in Mexico City",
+      "description": "Matter, space and everyday life. etarq studio is an architecture and design practice based in Mexico City."
+    },
+    "projects": {
+      "title": "Projects — etarq studio",
+      "description": "Interiors, bars, stairs and planted passages: a selection of projects by etarq studio."
+    },
+    "studio": {
+      "title": "Studio — etarq studio",
+      "description": "Meet etarq studio, an architecture and design practice in Mexico City."
+    },
+    "approach": {
+      "title": "Approach — etarq studio",
+      "description": "Matter, light, living green and everyday life: the ideas running through etarq studio's work."
+>>>>>>> 68307ba9e997c30ee9ec9d3694ab91c16fc47470
     },
     "contact": {
       "title": "Contact — etarq studio",
@@ -48,7 +67,11 @@
   "Nav": {
     "projects": "Projects",
     "studio": "Studio",
+<<<<<<< HEAD
     "approach": "Process",
+=======
+    "approach": "Approach",
+>>>>>>> 68307ba9e997c30ee9ec9d3694ab91c16fc47470
     "contact": "Contact"
   },
   "Language": {
@@ -67,15 +90,25 @@
   },
   "Intro": {
     "eyebrow": "The studio",
+<<<<<<< HEAD
     "title": "Spaces that do more than work: they convey feeling and tell stories.",
     "body1": "Our name comes from Latin, where “et” means “and”. It stands for the union of the many different actors in architecture.",
     "body2": "Each project brings people into the act of inhabiting, using materials, textures, lighting and furniture to build atmospheres that reflect who they are and elevate their way of life.",
+=======
+    "title": "Spaces shaped by what they are made of, and by how they are lived in.",
+    "body1": "etarq studio is an architecture and design practice based in Mexico City. Its projects range from retail interiors to coffee bars, stairs and planted passages, always built from honest, tactile materials: timber, stone, plaster, ceramic and living plants.",
+    "body2": "Light, shade and vegetation are treated as part of the construction, not as decoration.",
+>>>>>>> 68307ba9e997c30ee9ec9d3694ab91c16fc47470
     "cta": "Meet the studio"
   },
   "Projects": {
     "eyebrow": "Projects",
     "title": "Selected work",
+<<<<<<< HEAD
     "lead": "Cafés, bars, restaurants, lounges and homes.",
+=======
+    "lead": "Interiors, bars, stairs and planted passages.",
+>>>>>>> 68307ba9e997c30ee9ec9d3694ab91c16fc47470
     "featuredEyebrow": "Selection",
     "featuredTitle": "Recent projects",
     "typeLabel": "Type",
@@ -89,6 +122,7 @@
     "moreImagesNote": "More photographs of this project will be added once the studio supplies them.",
     "galleryLabel": "Project gallery",
     "items": {
+<<<<<<< HEAD
       "cafe": {
         "title": "Ochre café",
         "type": "Café interior · render",
@@ -160,6 +194,49 @@
         "type": "Façade · photograph",
         "summary": "A soft-pink façade with black steel windows and a gate clad in richly grained timber planks.",
         "description": "A street façade in soft pink with large black steel-framed windows across two storeys. At street level, a steel-framed gate clad in vertical timber planks with strong grain and colour variation anchors the composition."
+=======
+      "buna": {
+        "title": "Buna",
+        "type": "Coffee bar · Hospitality",
+        "summary": "A glazed-tile bar under a light steel canopy.",
+        "description": "A coffee counter clad in bronze-toned glazed tile sits beneath a red steel frame and a translucent canopy that filters daylight. A raw stone basin with a matte black tap anchors the counter, while planting surrounds the whole composition."
+      },
+      "yale": {
+        "title": "Yale",
+        "type": "Retail interior",
+        "summary": "Timber shelving and a stone-topped counter against a dark wall.",
+        "description": "A clothing store organised around a continuous timber display wall. Lit panels frame the brand mark, a stone-topped counter greets the visitor, and a charcoal wall carries a slogan in large lettering."
+      },
+      "escalera": {
+        "title": "Stair & Garden",
+        "type": "Interior · Stair",
+        "summary": "A cantilevered concrete stair rising from an indoor garden.",
+        "description": "Concrete treads fold in a zig-zag from the wall, finished with a timber handrail and slender steel balusters. At the foot, a bed of large-leaf plants brings green into a calm white hall with a pale stone floor and a strip of skylight above."
+      },
+      "pergola": {
+        "title": "Pergola",
+        "type": "Exterior · Covered walkway",
+        "summary": "A timber-and-steel pergola threading through planters.",
+        "description": "Black steel posts carry a grid of timber beams and translucent panels, filtering daylight onto a warm timber floor. Planters on both sides turn the passage into a garden corridor, open toward the trees beyond."
+      },
+      "rojo": {
+        "title": "Red Interior",
+        "type": "Interior · Small commercial space",
+        "summary": "A saturated red envelope around pale timber furniture.",
+        "description": "Walls and ceiling painted in saturated red and pink frame a red-framed window to the street. Pale timber benches and low tables, beside a wall of framed pictures, keep the scale warm and human, lit by a neon sign and small lamps."
+      },
+      "cactus": {
+        "title": "Cactus Corner",
+        "type": "Interior · Seating corner",
+        "summary": "A timber bench carrying a low desert garden, washed in amber light.",
+        "description": "A built-in timber bench wraps the corner and doubles as a planter for cacti and succulents, lit from below by a thin LED line. The rough plaster walls glow a greenish gold, with a single spotlight and exposed joists overhead."
+      },
+      "cocina": {
+        "title": "Green Skylight Kitchen",
+        "type": "Residential interior · Visualization",
+        "summary": "A render of a kitchen under a planted timber lattice.",
+        "description": "A rendered study of a kitchen where a planted timber lattice opens the ceiling to the sky, scattering dappled light across a terrazzo floor. Warm wood cabinetry, a stone island and lit niches complete a calm palette."
+>>>>>>> 68307ba9e997c30ee9ec9d3694ab91c16fc47470
       }
     }
   },
@@ -174,6 +251,7 @@
     "translucent": "Translucent panels",
     "paint": "Applied colour",
     "terrazzo": "Terrazzo",
+<<<<<<< HEAD
     "canopy": "Translucent canopy",
     "textile": "Textile",
     "leather": "Leather",
@@ -187,6 +265,71 @@
     "body2": "With this approach, <b>we create spaces that do more than work: they convey feeling and tell stories.</b>",
     "body3": "Each project brings people into the act of inhabiting, <b>using materials, textures, lighting and furniture to build atmospheres that reflect who they are and elevate their way of life.</b> Discover how we can turn your vision into a unique aesthetic and emotional experience.",
     "projectsCta": "See the projects",
+=======
+    "canopy": "Translucent canopy"
+  },
+  "Maquette": {
+    "eyebrow": "Model",
+    "title": "Volumes in suspension",
+    "body": "An abstract study of volumes: spiralling stone steps, a timber-and-steel pergola, and planters. Turn the piece to see it from other angles.",
+    "caption": "Abstract study inspired by the stepped stone, the timber pergola and the green stair in the studio's work. It does not represent a built building.",
+    "hint": "Drag to rotate",
+    "loading": "Loading the model…",
+    "fallbackNote": "The 3D view is not available on this device. Here is a photograph of the detail that inspires it.",
+    "regionLabel": "Interactive three-dimensional model"
+  },
+  "Approach": {
+    "eyebrow": "Approach",
+    "title": "Four ideas that run through the studio's work.",
+    "lead": "A way of designing that starts from what is touched, seen and used every day.",
+    "draftNote": "Draft wording based on the photographed projects; to be refined with the studio.",
+    "pillarsLabel": "Principles",
+    "pillars": {
+      "matter": {
+        "title": "Matter",
+        "body": "Timber, stone, plaster and ceramic are kept close to their natural state. Texture, grain and weight do the work that ornament usually does."
+      },
+      "light": {
+        "title": "Light",
+        "body": "Daylight is filtered, reflected and softened by pergolas, canopies and skylights; at night, warm low-level light draws the edges of each space."
+      },
+      "green": {
+        "title": "Living green",
+        "body": "Plants are planned from the first sketch: in planters, under stairs, along benches, through the ceiling. They are part of how a space is experienced, not an afterthought."
+      },
+      "everyday": {
+        "title": "Everyday life",
+        "body": "A coffee counter, a shop wall, a hallway stair: the studio designs the places where ordinary routines happen, at the scale of the hand and the step."
+      }
+    },
+    "cta": "See the projects"
+  },
+  "Studio": {
+    "eyebrow": "Studio",
+    "title": "Architecture + Design from Mexico City.",
+    "lead": "Matter, space and everyday life.",
+    "draftNote": "Draft copy based on the studio's public profile; to be confirmed.",
+    "body1": "etarq studio is an architecture and design practice based in Mexico City. Its projects range from retail interiors to coffee bars, stairs and planted passages.",
+    "body2": "Each project starts from a material and from a way of using the space. Light, shade and vegetation are part of the construction from the beginning.",
+    "locationLabel": "Location",
+    "locationValue": "Mexico City, Mexico",
+    "disciplinesTitle": "What we do",
+    "disciplines": {
+      "architecture": {
+        "title": "Architecture",
+        "body": "Spaces, stairs and light structures designed from their materiality."
+      },
+      "interiors": {
+        "title": "Interiors",
+        "body": "Shops, cafés and small spaces resolved with bespoke furniture and detail."
+      },
+      "landscape": {
+        "title": "Green and landscape",
+        "body": "Planters, courtyards and vegetation integrated into the architecture."
+      }
+    },
+    "galleryTitle": "From the studio",
+>>>>>>> 68307ba9e997c30ee9ec9d3694ab91c16fc47470
     "ctaTitle": "Have a space in mind?",
     "ctaBody": "Tell us about the site, the brief and what you imagine.",
     "ctaButton": "Write to the studio"
@@ -246,7 +389,11 @@
     "contactTitle": "Contact",
     "followTitle": "Follow",
     "rights": "© {year} etarq studio.",
+<<<<<<< HEAD
     "photoCredit": "Renders and photographs: material supplied by the studio.",
+=======
+    "photoCredit": "Photographs: material supplied by the studio.",
+>>>>>>> 68307ba9e997c30ee9ec9d3694ab91c16fc47470
     "concept": "Website concept."
   },
   "Errors": {
@@ -261,6 +408,7 @@
     "label": "Loading content"
   },
   "Images": {
+<<<<<<< HEAD
     "cafe": "Rendered café counter in ochre plaster with timber cabinets, red pendant lamps and a pale-green steel and glass frame, beside a stair and an arched red-tile window",
     "basin": "Narrow rendered washroom with ochre walls, an oval mirror with a pale-green frame, a round white basin on a timber vanity and a translucent green door",
     "cine": "Rendered bar interior with golden walls, red wall lights, red-upholstered timber booths, framed Mexican cinema posters and a timber counter with pale-green stools",
@@ -289,6 +437,18 @@
     "team_abril": "Portrait of Abril Esparza",
     "team_alexia": "Portrait of Alexia Argüelles",
     "team_fernando": "Portrait of Fernando Dragonné"
+=======
+    "pergola": "Covered walkway with a pergola of timber beams and black steel posts, planters on both sides and a timber floor.",
+    "stairGarden": "Zig-zag concrete stair with a timber handrail above an indoor garden of large-leaf plants.",
+    "bunaBar": "Coffee bar clad in bronze-toned glazed tile, beneath a red steel frame and a translucent canopy.",
+    "basin": "Raw stone basin with a matte black tap on a dark counter, with light and plant shadows behind.",
+    "yale": "Clothing store with timber walls, a stone-topped counter and a dark wall carrying a slogan in large letters.",
+    "redRoom": "Interior with a red ceiling and walls, a red-framed window, pale timber furniture and a wall of framed pictures.",
+    "cactus": "Corner with a timber bench holding cacti and succulents, lit in amber light against a rough wall.",
+    "kitchen": "Rendered kitchen with a stone island, timber cabinetry and a planted timber lattice in the ceiling.",
+    "stoneSteps": "Semicircular steps of rough stone with light and shadow against a textured white wall.",
+    "overhead": "Overhead view of a corridor with a timber wall and floor, dark carpet and a glazed wall with plants."
+>>>>>>> 68307ba9e997c30ee9ec9d3694ab91c16fc47470
   },
   "Marquee": {
     "a": "Matter",
@@ -305,6 +465,7 @@
     "eyebrow": "Index",
     "title": "Every project",
     "hint": "Hover a project to preview it."
+<<<<<<< HEAD
   },
   "Stats": {
     "eyebrow": "Experience",
@@ -374,3 +535,7 @@
     }
   }
 }
+=======
+  }
+}
+>>>>>>> 68307ba9e997c30ee9ec9d3694ab91c16fc47470

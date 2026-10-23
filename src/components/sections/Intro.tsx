@@ -3,8 +3,14 @@ import { Reveal } from '@/components/motion/Reveal';
 import { SplitHeading } from '@/components/motion/SplitHeading';
 import { Photo } from '@/components/ui/Photo';
 import { ArrowLink } from '@/components/ui/ArrowLink';
+<<<<<<< HEAD
 
 /** Editorial studio introduction using the studio's own words about its name. */
+=======
+import { DraftNote } from '@/components/ui/DraftNote';
+
+/** Editorial studio introduction on an asymmetric 12-column grid. */
+>>>>>>> 68307ba9e997c30ee9ec9d3694ab91c16fc47470
 export function Intro() {
   const t = useTranslations('Intro');
 
@@ -20,7 +26,11 @@ export function Intro() {
         </div>
 
         <div className="md:col-span-5 md:mt-16">
+<<<<<<< HEAD
           <Photo asset="studioWalk" sizes="(min-width: 768px) 40vw, 100vw" ratio="4 / 5" position="50% 50%" parallax />
+=======
+          <Photo asset="stairGarden" sizes="(min-width: 768px) 40vw, 100vw" ratio="1 / 1" position="35% 50%" parallax />
+>>>>>>> 68307ba9e997c30ee9ec9d3694ab91c16fc47470
         </div>
 
         <div className="flex flex-col justify-end gap-8 md:col-span-4 md:col-start-7 md:pb-4">
@@ -31,12 +41,20 @@ export function Intro() {
             <p className="text-[1.0625rem] leading-[1.75] text-ink/90">{t('body2')}</p>
           </Reveal>
           <Reveal delay={0.3} className="flex flex-col items-start gap-5">
+<<<<<<< HEAD
+=======
+            <DraftNote />
+>>>>>>> 68307ba9e997c30ee9ec9d3694ab91c16fc47470
             <ArrowLink href="/studio">{t('cta')}</ArrowLink>
           </Reveal>
         </div>
 
         <div className="hidden md:col-span-3 md:col-start-10 md:-mt-40 md:block">
+<<<<<<< HEAD
           <Photo asset="billarLounge" sizes="25vw" ratio="3 / 4" position="50% 50%" parallax />
+=======
+          <Photo asset="cactus" sizes="25vw" ratio="3 / 4" position="50% 62%" parallax />
+>>>>>>> 68307ba9e997c30ee9ec9d3694ab91c16fc47470
         </div>
       </div>
     </section>

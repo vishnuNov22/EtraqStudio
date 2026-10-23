@@ -12,8 +12,12 @@ import { MobileMenu } from './MobileMenu';
 
 /**
  * Fixed header. Over the cinematic hero (home, not yet scrolled) it is transparent with light text;
+<<<<<<< HEAD
  * everywhere else it takes the page palette (ivory, green, leather, cognac, sage), cross-fading between routes
  * so labels, borders and the progress line always keep strong contrast.
+=======
+ * everywhere else it is a solid ivory bar so labels always keep strong contrast.
+>>>>>>> 68307ba9e997c30ee9ec9d3694ab91c16fc47470
  */
 export function Header() {
   const t = useTranslations('Nav');
@@ -42,7 +46,11 @@ export function Header() {
         className={`fixed inset-x-0 top-0 z-50 transition-[background-color,color,border-color] duration-500 ${
           overHero
             ? 'on-dark border-b border-transparent text-ivory'
+<<<<<<< HEAD
             : 'border-b border-line bg-surface/95 text-ink backdrop-blur-md'
+=======
+            : 'border-b border-line bg-ivory text-ink'
+>>>>>>> 68307ba9e997c30ee9ec9d3694ab91c16fc47470
         }`}
       >
         {/* Soft scrim keeps nav legible over bright parts of the hero photograph. */}
@@ -51,9 +59,15 @@ export function Header() {
         ) : null}
 
         <div className="container-x flex h-[var(--header-h)] items-center justify-between">
+<<<<<<< HEAD
           <Link href="/" aria-label={tc('homeLink')} className="font-display text-[1.6rem] leading-none tracking-[-0.04em]">
             {siteConfig.wordmark}
             <span className="ml-1.5 text-[0.85rem] tracking-normal opacity-70">{siteConfig.wordmarkSuffix}</span>
+=======
+          <Link href="/" aria-label={tc('homeLink')} className="font-display text-[1.75rem] leading-none">
+            {siteConfig.wordmark}
+            <span className="ml-1.5 text-[1.05rem] italic opacity-70">{siteConfig.wordmarkSuffix}</span>
+>>>>>>> 68307ba9e997c30ee9ec9d3694ab91c16fc47470
           </Link>
 
           <div className="flex items-center gap-8 lg:gap-12">
@@ -97,7 +111,11 @@ export function Header() {
             </button>
           </div>
         </div>
+<<<<<<< HEAD
         <motion.div aria-hidden className="absolute inset-x-0 bottom-[-1px] h-px origin-left bg-accent" style={{ scaleX: scrollYProgress }} />
+=======
+        <motion.div aria-hidden className="absolute inset-x-0 bottom-[-1px] h-px origin-left bg-rojo" style={{ scaleX: scrollYProgress }} />
+>>>>>>> 68307ba9e997c30ee9ec9d3694ab91c16fc47470
       </header>
 
       <MobileMenu open={open} onClose={close} currentPath={pathname} />
